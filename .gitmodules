@@ -1,0 +1,3 @@
+[submodule "Kestrel-AMPL-Linux"]
+	path = Kestrel-AMPL-Linux
+	url = https://github.com/NEOS-Server/Kestrel-AMPL-Linux.git
