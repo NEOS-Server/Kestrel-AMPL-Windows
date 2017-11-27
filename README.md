@@ -1,1 +1,1 @@
-# Kestrel-AMPL-Windows
+# Kestrel AMPL client for Windows
