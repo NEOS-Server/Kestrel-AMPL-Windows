@@ -2,6 +2,9 @@
 Remove-Item -Force -Recurse .\dist
 Remove-Item -Force -Recurse .\build
 
+# Remove previous kestrel.zip
+Remove-Item -Force .\kestrel.zip
+
 # Copy kestrel file from linux client repo
 Copy-Item -Force .\Kestrel-AMPL-Linux\kestrel .\kestrel.py
 
