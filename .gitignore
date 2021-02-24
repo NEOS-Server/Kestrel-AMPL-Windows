@@ -102,4 +102,5 @@ ENV/
 
 # kestrel files
 /kestrel.py
+/kestrelAMPL.py
 /kestrel.zip
