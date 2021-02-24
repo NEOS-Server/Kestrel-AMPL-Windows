@@ -5,8 +5,9 @@ Remove-Item -Force -Recurse .\build
 # Remove previous kestrel.zip
 Remove-Item -Force .\kestrel.zip
 
-# Copy kestrel file from linux client repo
+# Copy kestrel and kestrelAMPL.py files from linux client repo
 Copy-Item -Force .\Kestrel-AMPL-Linux\kestrel .\kestrel.py
+Copy-Item -Force .\Kestrel-AMPL-Linux\kestrelAMPL.py .\kestrelAMPL.py
 
 # Run py2exe setup script
 python setup.py py2exe
